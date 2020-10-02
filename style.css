@@ -15,5 +15,129 @@ html { box-sizing: border-box; }
 
 
 body {
-    background-color: #bdc3c7;
+    padding: 20px;
+    margin: 0;
 }
+
+.profil {
+    max-width: 250px;
+    background-color: #32363A;
+    box-shadow: black 2px 3px 10px;
+
+}
+
+.hlavicka {
+    max-height: 190px;
+}
+
+.foto {
+    max-width: 250px;
+    position: static;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    padding: 0 20px ;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 8px 20px;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+}
+
+
+.odkazy {
+    background-color: #32363A;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+ }
+
+ .odkazy li {
+    display: inline-block;
+    height: 40px;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+
+ }
+
+.odkazy a {
+    color: #bdc3c7;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+}
+
+.odkazy .portfolio {
+    border-top: 1px solid #3f464d;
+    border-bottom: 1px solid #3f464d;
+    width: 250px;
+}
+
+
+.odkazy .portfolio:hover,
+.odkazy .portfolio:focus,
+.odkazy .portfolio:active {
+    background-color: #e74c3c;
+    width: 250px;
+
+}
+.odkazy .facebook:hover,
+.odkazy .facebook:focus,
+.odkazy .facebook:active {
+    background-color: #3b5998;
+    border: none;
+    width: 123px;
+    
+}
+.odkazy .twitter:hover,
+.odkazy .twitter:focus,
+.odkazy .twitter:active {
+    background-color: #1da1f2;
+    border: none;
+    width: 123px;
+}
+
+.odkazy .facebook ,
+.odkazy .twitter {
+    width: 123px;
+ }
+
+
+.p2 {
+    padding: 2px 20px 25px ;
+}
+
+.obdelnik {
+    position: relative;
+    bottom: 28px;
+    left: 170px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #b92e81;
+    display: inline-block;
+    z-index: 100;
+  
+}
+
+.logo {
+    position: relative;
+    width: 45px;
+    bottom: 81px;
+    left: 172px;
+    z-index: 9999;
+}
+
+
